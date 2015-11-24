@@ -6,16 +6,16 @@ map = (function () {
 // (function () {
     // 'use strict';
 
-    var map_start_location = [40.7238, -73.9881, 14]; // NYC
+    var map_start_location = [36.1048, 140.0852, 18]; // 東京 (Tokyo)
 
     /*** URL parsing ***/
 
     // leaflet-style URL hash pattern:
     // #[zoom],[lat],[lng]
     var url_hash = window.location.hash.slice(1, window.location.hash.length).split('/');
-    keytext = "kind";
+    keytext = "type";
     window.keytext = keytext;
-    valuetext = "major_road";
+    valuetext = "堅ろう建物";
     window.valuetext = valuetext;
 
     if (url_hash.length >= 3) {
