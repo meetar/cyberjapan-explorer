@@ -191,6 +191,7 @@ layers:
                 text_source: knj
                 offset: [0, -13]
                 font:
+                    size: 12pt
                     fill: black
         red:
             filter: |
