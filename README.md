@@ -1,6 +1,6 @@
-# explorer
+# cyberjapan-explorer
 
-http://meetar.github.io/cyberjapan-explorer
+Live demo: http://meetar.github.io/cyberjapan-explorer
 
 Roll over a feature to show its properties.
 
